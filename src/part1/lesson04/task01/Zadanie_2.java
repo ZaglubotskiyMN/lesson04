@@ -12,7 +12,7 @@ public class Zadanie_2 {
 
         if (x>0) {
             System.out.print("Положительное" + " ");
-            if (x >= 1 && x < 10 && x % 2 == 0)
+            if (x % 2 == 0)
                 System.out.print("Четное");
             else
                 System.out.print("Нечетное");

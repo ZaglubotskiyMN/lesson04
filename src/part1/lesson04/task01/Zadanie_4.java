@@ -2,20 +2,26 @@ package part1.lesson04.task01;
 
 public class Zadanie_4 {
     public static void main(String[] args) {
-    int n = 4; //Число членов последовательности
-    int a1 = 1;// первый член прогресси
-    int d = 2; //ввести разность
-    int an;
-    int sum;
+       int a=10;// Количество членов прогресси
+       int d=2; // Введите разность
+       int a1=0;
+       int n=5; // число членов прогресси
+       int sn;
 
-    an=a1+(n-1)*d;
+       for (int an =1;an<=a;an++)
 
-    System.out.println(an+ "-" +"N-ый член арифметической прогресси");
-
-    sum=(a1+an)*n/2;
-    System.out.print(sum+"-"+"Сумма первых n членов арифметической прогрессии");
+               System.out.println(a1+d*(an-1) + "-" +"Последующий член арифметической прогресси");
 
 
+           }
+       }
 
-    }
-}
+
+
+
+
+
+
+
+
+
